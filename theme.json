@@ -1,0 +1,10 @@
+{
+    "id": "nodebb-theme-moderskeppet",
+    "name": "Moderskeppet",
+    "description": "Tema för moderskeppet.",
+    "url": "http://moderskeppet.se",
+    "screenshot": "screenshot.png",
+    "baseTheme": "nodebb-theme-persona",
+    "languages": "./language",
+    "defaultLang": "sv"
+}

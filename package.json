@@ -1,0 +1,29 @@
+{
+  "name": "nodebb-theme-moderskeppet",
+  "version": "0.0.1",
+  "description": "Moderskeppet Theme for NodeBB",
+  "main": "theme.less",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NodeBB/nodebb-theme-lavender"
+  },
+  "keywords": [
+    "nodebb",
+    "moderskeppet",
+    "theme",
+    "themes"
+  ],
+  "author": {
+    "name": "fredrik melén",
+    "email": "fredrik@moderskeppet.se"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/zombiefredrik"
+  },
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "readme": "",
+  "readmeFilename": "README.md"
+}

@@ -1,0 +1,45 @@
+//streck över composern
+.composer {
+	border-top: 2px solid @gray-light;
+}
+
+//större ikoner och text underkategorier
+.categories, .category > ul {
+	> li {
+		.category-children {
+			.fa-stack {
+				font-size: inherit;
+			}
+			small {
+				font-size: inherit;
+			}
+		}
+	}
+}
+//större test på kategoribeskrivningar
+.category, .categories, .subcategory {
+	h2.title .description {
+		font-size: inherit;
+		font-weight: normal;
+		line-height: 1;
+		color: @gray-light;
+	}
+}
+
+//vit yta
+div#content {
+	background-color: #fff;
+}
+
+//menyn
+nav#header-menu {
+	//border: 1px solid green;
+ 	.container {
+    	border: 1px solid #aaa;
+    	background-color: #ccc;
+	}
+}
+//ingen margin mellan menyn och content?
+.navbar {
+margin-bottom: 0;
+}

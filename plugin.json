@@ -1,0 +1,45 @@
+{
+	"id": "nodebb-theme-moderskeppet",
+	"library": "./lib/theme.js",
+	"hooks": [
+		{
+			"hook": "static:app.load", "method": "init"
+		},
+		{
+			"hook": "filter:categories.build", "method": "categoriesControllerHook"
+		},
+		{
+			"hook": "filter:category.build", "method": "teaserControllerHook"
+		},
+		{
+			"hook": "filter:recent.build", "method": "teaserControllerHook"
+		},
+		{
+			"hook": "filter:popular.build", "method": "teaserControllerHook"
+		},
+		{
+			"hook": "filter:unread.build", "method": "teaserControllerHook"
+		},
+		{
+			"hook": "filter:topic.build", "method": "topicControllerHook"
+		},
+		{
+			"hook": "filter:category.topics.get", "method": "categoryTopicsHook"
+		},
+		{
+			"hook": "filter:middleware.renderHeader", "method": "renderHeaderHook"
+		},
+		{
+			"hook": "filter:post.get", "method": "postGetHook"
+		},
+		{
+			"hook": "filter:account/topics.build", "method": "accountTopicsBuild"
+		} 
+	],
+	"staticDirs": {
+		"vendor": "static/vendor"
+	},
+	"scripts": [
+		"static/lib/moderskeppet.js"
+	] 
+}

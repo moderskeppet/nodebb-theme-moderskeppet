@@ -1,0 +1,75 @@
+//ta bort taggar i ämnesgrejen
+.tags-container input {
+	display: none;
+}
+
+//Ta bort logga ut och DND i chat-menyn - fulhack
+/*
+#user-control-list li:nth-child(n+7), #user-control-list li:nth-child(5) {
+    display:none;
+}
+*/
+//flytta upp body
+body {
+    padding-top: 0;
+}
+
+//storlek på rubriker
+.categories>li .content h2 a, .category>ul>li .content h2 a {
+    font-size: 22px !important;
+}
+
+//ta bort rand
+.header {
+    border: 0px;
+}
+
+//städa bort en bugg i guld-css
+[class*='kol'] {
+float: inherit;
+padding-right: inherit;
+}
+.header-body [class*='kol'] {
+    float:left;
+    padding-right:30px;
+}
+
+@media (max-width: @screen-md-max) {
+	#panel {
+		padding-top: 0px;
+	}
+}
+
+//göm fuckin cover
+.cover {
+	border: 1px solid pink;
+	height:10px !important;
+	position: relative;
+}
+/*
+.account {
+	margin-top: 0;
+}
+.account .cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: inherit;
+    position: inherit;
+    margin-bottom: 0;
+    width: inherit;
+}
+*/
+
+@media (min-width: 1200px) {
+.container {
+    width: 990px;
+}
+}
+
+//randig topics
+.categories li:nth-child(even) {
+    background-color: #eee; 
+}
+article ul {
+ margin-left: 0 !important;
+}
