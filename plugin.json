@@ -40,6 +40,8 @@
 		"vendor": "static/vendor"
 	},
 	"scripts": [
+		"lib/modules/slideout.min.js",
 		"static/lib/moderskeppet.js"
+	
 	] 
 }
