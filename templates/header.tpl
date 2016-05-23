@@ -45,15 +45,17 @@
 
 			<header class="header" role="banner">
 
-         <div class="header-top">
+  <div class="header-top">
             <div class="header-top-inner wrap_nooverflow clearfix">
+				       <!--
             <span class="header-top-user">{user.username}</span>
             <span class="iphonehide-innerblock header-top-playlist"><a href="https://guld.moderskeppet.se/erbjudande/">Erbjudanden</a></span>
             <span class="iphonehide-innerblock header-top-playlist"><a class="iphone-extra" href="https://guld.moderskeppet.se/listor/">Spellistor</a></span>
             <span class="iphonehide-innerblock header-top-latest"><a class="resume iphone-extra" href="http://guld.moderskeppet.se/kurser/kurs/logotyper-i-illustrator/5_Text"><del>Senast sedda</del></a></span>
             <span class="iphonehide-innerblock header-top-watchlog"><a href="https://guld.moderskeppet.se/historik/">Historik</a></span>
             <span class="iphonehide-innerblock header-top-settings"><a href="https://guld.moderskeppet.se/profil/" title="Din Profil">Din profil</a></span>
-                         </div>
+             		//-->
+			</div> 
           </div>
 
           <div class="header-body">
