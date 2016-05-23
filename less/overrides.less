@@ -70,9 +70,11 @@ padding-right: inherit;
 .categories li:nth-child(even) {
     background-color: #eee; 
 }
-article ul {
+
+article ul.categories {
  margin-left: 0 !important;
 }
+
 
 //flytta mobilmenyn
 @media only screen and (max-width: 767px) {
@@ -80,9 +82,21 @@ article ul {
 top: 220px;
 }
 }
-
+//stor logga
 @media only screen and (max-width: 767px) {
 .header-body #logo img {
     width: 200%;
 }
 }
+
+//punktlistor
+/*
+article {
+    div.content {
+     ul {
+        border: 1px solid red;
+        margin-left: 5px !important;
+     }
+  }
+}
+*/
