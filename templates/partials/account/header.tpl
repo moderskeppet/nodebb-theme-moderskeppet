@@ -1,4 +1,4 @@
-<div class="cover" component="account/cover">
+
 	<div class="avatar-wrapper" data-uid="{uid}">
 		<!-- IF picture -->
 		<img src="{picture}" class="avatar avatar-lg avatar-rounded" />
@@ -33,4 +33,6 @@
 		<div class="indicator">[[groups:cover-saving]] <i class="fa fa-fw fa-refresh fa-spin"></i></div>
 		<!-- ENDIF neverEverGonnaGiveYouUp -->
 	</div>
-</div>
+
+
+

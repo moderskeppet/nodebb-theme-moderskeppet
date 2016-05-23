@@ -1,4 +1,5 @@
-<div class="account">
+<div class="account-new">
+<div class="profile-wrap">
 	<!-- IMPORT partials/account/header.tpl -->
 	<!-- IF sso.length --><div><!-- ENDIF sso.length -->
 		<div class="row">
@@ -25,6 +26,8 @@
 				</div>
 			</div>
  <!-- ENDIF fuckTHEPolice -->
+ 
+ </div>
 			<div class="<!-- IF !sso.length -->col-md-12 col-sm-12<!-- ELSE -->col-md-5 col-sm-4<!-- ENDIF !sso.length -->">
 				<div>
 					<form class='form-horizontal'>

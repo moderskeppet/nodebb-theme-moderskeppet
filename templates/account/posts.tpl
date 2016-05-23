@@ -3,14 +3,15 @@
 	<!-- IMPORT partials/account/header.tpl -->
 </div>
 	<div class="row">
-		<h1>Ämnen skapade av {fullname}</h1>
+		<h1>{title}</h1>
 
-		<!-- IF !topics.length -->
+		<!-- IF !posts.length -->
 			<div class="alert alert-warning text-center">{noItemsFoundKey}</div>
-		<!-- ENDIF !topics.length -->
+		<!-- ENDIF !posts.length -->
 
-		<div class="category">
-			<!-- IMPORT partials/topics_list.tpl -->
+		<div class="col-xs-12">
+			<!-- IMPORT partials/posts_list.tpl -->
+
 			<!-- IF config.usePagination -->
 				<!-- IMPORT partials/paginator.tpl -->
 			<!-- ENDIF config.usePagination -->

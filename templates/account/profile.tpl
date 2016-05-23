@@ -1,4 +1,5 @@
-<div class="account">
+<div class="account-new">
+<div class="profile-wrap">
 	<!-- IMPORT partials/account/header.tpl -->
 
 	<div class="profile row">
@@ -41,7 +42,7 @@
 		</div>
 	</div>
 
-
+</div>
 	<hr />
 
 	<div class="row">
