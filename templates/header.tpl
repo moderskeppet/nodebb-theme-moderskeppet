@@ -3,7 +3,7 @@
 <head>
 	<title>{browserTitle}</title>
 	<!-- BEGIN metaTags -->{function.buildMetaTag}<!-- END metaTags -->
-    <link rel='stylesheet' id='bones-stylesheet-css'  href='http://guld.moderskeppet.se/wp-content/themes/Guld-tema/library/css/style.css?{config.cache-buster}' type='text/css' media='all' />
+    <link rel='stylesheet' id='bones-stylesheet-css'  href='https://guld.moderskeppet.se/wp-content/themes/Guld-tema/library/css/style.css?{config.cache-buster}' type='text/css' media='all' />
 	<link rel="stylesheet" type="text/css" href="{relative_path}/stylesheet.css?{config.cache-buster}" />
 	<!-- IF bootswatchCSS --><link id="bootswatchCSS" href="{bootswatchCSS}" rel="stylesheet" media="screen"><!-- ENDIF bootswatchCSS -->
 	<!-- BEGIN linkTags -->{function.buildLinkTag}<!-- END linkTags -->
@@ -83,7 +83,7 @@
             <span class="header-top-user">{user.username}</span>
             <span class="iphonehide-innerblock header-top-playlist"><a href="https://guld.moderskeppet.se/erbjudande/">Erbjudanden</a></span>
             <span class="iphonehide-innerblock header-top-playlist"><a class="iphone-extra" href="https://guld.moderskeppet.se/listor/">Spellistor</a></span>
-            <span class="iphonehide-innerblock header-top-latest"><a class="resume iphone-extra" href="http://guld.moderskeppet.se/kurser/kurs/logotyper-i-illustrator/5_Text"><del>Senast sedda</del></a></span>
+            <span class="iphonehide-innerblock header-top-latest"><a class="resume iphone-extra" href="https://guld.moderskeppet.se/kurser/kurs/logotyper-i-illustrator/5_Text"><del>Senast sedda</del></a></span>
             <span class="iphonehide-innerblock header-top-watchlog"><a href="https://guld.moderskeppet.se/historik/">Historik</a></span>
             <span class="iphonehide-innerblock header-top-settings"><a href="https://guld.moderskeppet.se/profil/" title="Din Profil">Din profil</a></span>
              		//-->
@@ -96,7 +96,7 @@
 
 		 			<div class="kolumn3">
             <div id="logo">
-		 				<a href="/"><img src="http://guld.moderskeppet.se/wp-content/themes/Guld-tema/library/gfx/logo.png" alt="Moderskeppet Guld - Videokurser för kreativa"></a>
+		 				<a href="/"><img src="https://guld.moderskeppet.se/wp-content/themes/Guld-tema/library/gfx/logo.png" alt="Moderskeppet Guld - Videokurser för kreativa"></a>
 					 </div>
           </div>
 
@@ -109,18 +109,18 @@
           <nav id="huvudmeny" class="kolumn6">
 	           <div class="meny huvudmeny-container">
 
-                    <a class="menu-item" href="http://guld.moderskeppet.se/">Hem</a>
-                    <a class="menu-item" href="http://guld.moderskeppet.se/kunskap/">Kurser</a>
-                    <a class="menu-item" href="http://guld.moderskeppet.se/om-oss/">Om oss</a>
-                                          <a class="menu-item" href="http://guld.moderskeppet.se/bli-medlem/medlemskapet/">Medlemsinfo</a>
+                    <a class="menu-item" href="https://guld.moderskeppet.se/">Hem</a>
+                    <a class="menu-item" href="https://guld.moderskeppet.se/kunskap/">Kurser</a>
+                    <a class="menu-item" href="https://guld.moderskeppet.se/om-oss/">Om oss</a>
+                                          <a class="menu-item" href="https://guld.moderskeppet.se/bli-medlem/medlemskapet/">Medlemsinfo</a>
                                   </div>
            </nav>
 
            <nav id="secondarymeny" class="kolumn3">
 
             <div class="meny secondarymeny-container">
-                    <a class="menu-item-blogg" href="http://guld.moderskeppet.se/bloggen/">Blogg</a>
-                    <a class="menu-item-support" href="http://guld.moderskeppet.se/support/">Kontakt</a>
+                    <a class="menu-item-blogg" href="https://guld.moderskeppet.se/bloggen/">Blogg</a>
+                    <a class="menu-item-support" href="https://guld.moderskeppet.se/support/">Kontakt</a>
                       <a class="menu-item-login" href="https://guld.moderskeppet.se/wp-login.php?action=logout&amp;_wpnonce=a4bd134032">Logga ut</a>
 
              </div>
