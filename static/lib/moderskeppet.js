@@ -3,12 +3,12 @@ $('document').ready(function () {
     setupMobileMenu();
     
     $(window).on("action:topic.loaded", function() {
-       console.log("topic loaded");
+       //console.log("topic loaded");
        init();
     });
     //funktion för att sätta tillbaka fullname efter postande. (i reply to)
     $(window).on('action:posts.loading', function(evt,data) {
-        console.log('posts.loading',data);  // to inspect what is passed back by NodeBB
+        //console.log('posts.loading',data);  // to inspect what is passed back by NodeBB
         
         //hämta pid
         var toPid = data.posts[0].toPid;
@@ -38,7 +38,7 @@ $('document').ready(function () {
             });
             $('.topic').on('click', '[component="ms/topic/reply"]', function () {
                 onReplyClicked($(this), tid);
-                console.log('ms/topic/reply not implemented - behövs den?');
+                //console.log('ms/topic/reply not implemented - behövs den?');
             });
         });
         
@@ -178,7 +178,7 @@ $('document').ready(function () {
     }
     
     	function setupMobileMenu() {
-            console.log('setting up mobile menu');
+            //console.log('setting up mobile menu');
             
             var env = utils.findBootstrapEnvironment();
             

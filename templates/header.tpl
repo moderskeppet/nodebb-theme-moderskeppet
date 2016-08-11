@@ -3,6 +3,7 @@
 <head>
 	<title>{browserTitle}</title>
 	<!-- BEGIN metaTags -->{function.buildMetaTag}<!-- END metaTags -->
+	<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
     <link rel='stylesheet' id='bones-stylesheet-css'  href='https://guld.moderskeppet.se/wp-content/themes/Guld-tema/library/css/style.css?{config.cache-buster}' type='text/css' media='all' />
 	<link rel="stylesheet" type="text/css" href="{relative_path}/stylesheet.css?{config.cache-buster}" />
 	<!-- IF bootswatchCSS --><link id="bootswatchCSS" href="{bootswatchCSS}" rel="stylesheet" media="screen"><!-- ENDIF bootswatchCSS -->
@@ -87,7 +88,7 @@
             <span class="iphonehide-innerblock header-top-watchlog"><a href="https://guld.moderskeppet.se/historik/">Historik</a></span>
             <span class="iphonehide-innerblock header-top-settings"><a href="https://guld.moderskeppet.se/profil/" title="Din Profil">Din profil</a></span>
              		//-->
-			</div> 
+			</div>
           </div>
 
           <div class="header-body">
