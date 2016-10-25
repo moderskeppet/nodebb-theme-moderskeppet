@@ -9,19 +9,10 @@
     display:none;
 }
 */
-//flytta upp body
-body {
-    padding-top: 0;
-}
 
 //storlek på rubriker
 .categories>li .content h2 a, .category>ul>li .content h2 a {
     font-size: 22px !important;
-}
-
-//ta bort rand
-.header {
-    border: 0px;
 }
 
 //städa bort en bugg i guld-css
@@ -34,15 +25,8 @@ padding-right: inherit;
     padding-right:30px;
 }
 
-@media (max-width: @screen-md-max) {
-	#panel {
-		padding-top: 0px;
-	}
-}
-
 //göm fuckin cover
 .cover {
-	border: 1px solid pink;
 	height:10px !important;
 	position: relative;
 }
@@ -61,9 +45,9 @@ padding-right: inherit;
 */
 
 @media (min-width: 1200px) {
-.container {
-    width: 990px;
-}
+    .container {
+        width: 990px;
+    }
 }
 
 //randig topics
@@ -73,20 +57,6 @@ padding-right: inherit;
 
 article ul.categories {
  margin-left: 0 !important;
-}
-
-
-//flytta mobilmenyn
-@media only screen and (max-width: 767px) {
-.main-nav {
-top: 220px;
-}
-}
-//stor logga
-@media only screen and (max-width: 767px) {
-.header-body #logo img {
-    width: 200%;
-}
 }
 
 //centrera profilen
@@ -104,19 +74,10 @@ h1.fullname {
     bottom: inherit;
 }
 
-// EDITORSTUFF
-//minska bild i editor
-.redactor-editor img {
-    max-width: 90% !important;
-}
-.redactor-editor img.emojione {
-    width: auto !important;
-}
-
 //minska avståndet under Forum - Moderskeppet
-article ul li {
-    padding-bottom: 0px !important;
-}
+//article ul li {
+//    padding-bottom: 0px !important;
+//}
 
 //minska och öka avståndet till breadcrumb
 #panel .breadcrumb {
@@ -141,7 +102,7 @@ ul.categories li {
 
     //minska och öka avståndet till "kategorier"
     h1.categories-title {
-        margin-top: 10px;
+        //margin-top: 10px;
     }
 
     //"för X dagar sedan" i mobil (avstånd)
@@ -154,4 +115,5 @@ ul.categories li {
     .category>ul.topic-list>li {
         padding-bottom: 10px !important;
     }
+
 }

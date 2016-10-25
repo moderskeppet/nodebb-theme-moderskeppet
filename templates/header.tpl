@@ -85,64 +85,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div id="container-outer">
 
-			<header class="header" role="banner">
-
-  <div class="header-top">
-            <div class="header-top-inner wrap_nooverflow clearfix">
-				       <!--
-            <span class="header-top-user">{user.username}</span>
-            <span class="iphonehide-innerblock header-top-playlist"><a href="https://guld.moderskeppet.se/erbjudande/">Erbjudanden</a></span>
-            <span class="iphonehide-innerblock header-top-playlist"><a class="iphone-extra" href="https://guld.moderskeppet.se/listor/">Spellistor</a></span>
-            <span class="iphonehide-innerblock header-top-latest"><a class="resume iphone-extra" href="https://guld.moderskeppet.se/kurser/kurs/logotyper-i-illustrator/5_Text"><del>Senast sedda</del></a></span>
-            <span class="iphonehide-innerblock header-top-watchlog"><a href="https://guld.moderskeppet.se/historik/">Historik</a></span>
-            <span class="iphonehide-innerblock header-top-settings"><a href="https://guld.moderskeppet.se/profil/" title="Din Profil">Din profil</a></span>
-             		//-->
-			</div>
-          </div>
-
-          <div class="header-body">
-             <div class="header-body-inner wrap_nooverflow clearfix">
-
-
-		 			<div class="kolumn3">
-            <div id="logo">
-		 				<a href="/"><img src="https://guld.moderskeppet.se/wp-content/themes/Guld-tema/library/gfx/logo.png" alt="Moderskeppet Guld - Videokurser för kreativa"></a>
-					 </div>
-          </div>
-
-          <div id="iphoneknapp" class="iphone-extra">
-              <a href="#">Meny <span class="icon-reorder"></span>
-              </a>
-          </div>
-
-          <div class="main-nav iphonehide">
-          <nav id="huvudmeny" class="kolumn6">
-	           <div class="meny huvudmeny-container">
-
-                    <a class="menu-item" href="https://guld.moderskeppet.se/">Hem</a>
-                    <a class="menu-item" href="https://guld.moderskeppet.se/kunskap/">Kurser</a>
-                    <a class="menu-item" href="https://guld.moderskeppet.se/om-oss/">Om oss</a>
-                                          <a class="menu-item" href="https://guld.moderskeppet.se/bli-medlem/medlemskapet/">Medlemsinfo</a>
-                                  </div>
-           </nav>
-
-           <nav id="secondarymeny" class="kolumn3">
-
-            <div class="meny secondarymeny-container">
-                    <a class="menu-item-blogg" href="https://guld.moderskeppet.se/bloggen/">Blogg</a>
-                    <a class="menu-item-support" href="https://guld.moderskeppet.se/support/">Kontakt</a>
-                      <a class="menu-item-login" href="https://guld.moderskeppet.se/wp-login.php?action=logout&amp;_wpnonce=a4bd134032">Logga ut</a>
-
-             </div>
-
-          </nav>
-
-           </div> <!-- MAIN NAV -->
-
-        </div></div> <!-- end header body -->
-
-			</header> <!-- end header -->
-
 		<div id="content-moderskeppet">
 
         <div id="inner-content"><!-- omfamnar även sidebar -->
@@ -154,7 +96,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 	<main id="panel">
-		<nav class="navbar navbar-default header" id="header-menu" component="navbar">
+		<nav class="navbar navbar-default navbar-fixed-top header" id="header-menu" component="navbar">
+
 			<div class="container">
 				<!-- IMPORT partials/menu.tpl -->
 			</div>
