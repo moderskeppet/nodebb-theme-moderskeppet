@@ -31,13 +31,14 @@
 
 <footer class="footer platta_svart" role="contentinfo">
 <div class="kolumn8 tajt sidfot-moderskeppet">
-        <p> <a href="http://moderskeppet.se/"><img src="https://guld.moderskeppet.se/wp-content/themes/Guld-tema/library/gfx/nybadge_2015hdpi.png" alt="Moderskeppet.se" data-pin-nopin="true"></a></p>
+        <p> <a href="http://moderskeppet.se/"><img src="https://guld.moderskeppet.se/wp-content/themes/guld-3/library/gfx/nybadge_2015hdpi.png" alt="Moderskeppet.se" data-pin-nopin="true"></a></p>
         <p>Moderskeppet ägs av <a href="http://pixondu.se/">Pixondu</a>. Vår idé är att erbjuda dig fantastisk utbildning i kreativa och digitala ämnen. Vi gör det genom videokurser med suverän pedagogisk kvalitet.</p>
     </div>
 </footer> <!-- end footer -->
 
 </div> <!-- end #container -->
+<!--
 <script type='text/javascript' src='https://guld.moderskeppet.se/wp-content/themes/Guld-tema/library/js/scripts.js?ver=07d2af09786fc7d82b028444d2d03e81'></script>
 <script src="https://guld.moderskeppet.se/wp-content/themes/Guld-tema/library/js/functions.js?ver=2.7.7"></script>
-</body>
+--></body>
 </html>
